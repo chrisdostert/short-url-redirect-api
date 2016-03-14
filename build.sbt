@@ -17,4 +17,4 @@ dockerBaseImage := "java:8u72-jre"
 dockerExposedPorts += 8080
 
 // assembly plugin
-mainClass in Compile := Some("Server")
+mainClass in Compile := Some("com.urlable.redirectapi.server.Server")
