@@ -1,0 +1,2 @@
+# workaround for: https://github.com/flyway/flyway/issues/253
+*.sql eol=lf

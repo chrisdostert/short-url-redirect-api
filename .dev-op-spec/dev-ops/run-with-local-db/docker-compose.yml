@@ -1,0 +1,7 @@
+run-with-local-db:
+  image: chrisdostert/short-url-redirect-api
+  ports:
+    - 8080:8080
+  environment:
+    - SHORT_URL_SVC_HOST=http://load-balance-svc.nintex-dev.5ecdac38.svc.dockerapp.io
+    - SHORT_URL_SVC_PORT=80

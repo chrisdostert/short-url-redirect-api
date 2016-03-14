@@ -1,0 +1,6 @@
+description: deploys service
+stages:
+- name: push-docker-image
+  type: dev-op
+- name: deploy-to-docker-cloud
+  type: dev-op

@@ -1,0 +1,8 @@
+description: asserts "deliverable quality" and delivers artifacts
+stages:
+- name: test
+  type: pipeline
+- name: package
+  type: pipeline
+- name: deploy
+  type: pipeline

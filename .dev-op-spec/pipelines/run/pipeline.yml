@@ -1,0 +1,6 @@
+description: packages and runs the app locally
+stages:
+- name: package
+  type: pipeline
+- name: run-with-local-db
+  type: dev-op
