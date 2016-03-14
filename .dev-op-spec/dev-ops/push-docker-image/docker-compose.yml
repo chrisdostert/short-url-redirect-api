@@ -7,7 +7,7 @@ push-docker-image:
     - /var/run/docker.sock:/var/run/docker.sock
   entrypoint: .dev-op-spec/dev-ops/push-docker-image/entrypoint.sh
   environment:
-    - DOCKER_REPO_NAME=chrisdostert/short-url-redirect-api
+    - DOCKER_REPO_NAME=urlable/redirect-api
     - DOCKER_EMAIL
     - DOCKER_PASSWORD
     - DOCKER_USERNAME

@@ -7,5 +7,5 @@ deploy-to-docker-cloud:
   environment:
     - DOCKERCLOUD_USER=$DOCKER_USERNAME
     - DOCKERCLOUD_PASS=$DOCKER_PASSWORD
-    - DOCKER_REPO_NAME=chrisdostert/short-url-redirect-api
-    - DOCKERCLOUD_STACK_NAME=nintex-dev
+    - DOCKER_REPO_NAME=urlable/redirect-api
+    - DOCKERCLOUD_STACK_NAME=urlable-dev

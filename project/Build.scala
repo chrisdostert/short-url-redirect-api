@@ -24,7 +24,7 @@ object Build
         .value
         .withCachedResolution(true),
       parallelExecution in IntegrationTest := false,
-      organization := "com.chrisdostert",
+      organization := "com.urlable",
       scalaVersion := "2.11.7",
       scalacOptions := Seq(
         "-unchecked",
@@ -34,7 +34,7 @@ object Build
       ),
       libraryDependencies ++=
         Seq(
-          "com.chrisdostert" %% "short-url-svc-scala-sdk" % "0.1.0+1457918469",
+          "com.urlable" %% "short-url-svc-scala-sdk" % "0.1.0+1457933137",
           "org.testobjects" %% "test-objects-for-scala" % "0.1.4" % "test,it",
           "org.scalatest" %% "scalatest" % "2.2.5" % "test,it",
           "org.mockito" % "mockito-core" % "1.10.19" % "test,it",
@@ -42,7 +42,7 @@ object Build
           "com.softwaremill.macwire" %% "macros" % "2.2.2" % "provided"
         ),
       resolvers += Resolver.bintrayRepo(
-        "chrisdostert",
+        "urlable",
         "maven"
       )
     ) ++
